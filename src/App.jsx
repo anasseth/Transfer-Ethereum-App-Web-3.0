@@ -14,7 +14,7 @@ function App() {
       <div className="gradient-bg-welcome">
         {/* <Navbar /> */}
         <Header />
-        {/* <Home /> */}
+        <Home />
       </div>
       {/* <Services /> */}
       {/* <Transactions /> */}
