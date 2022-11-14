@@ -1,8 +1,8 @@
 import { useState } from "react";
 import {
   Navbar,
+  Header,
   Home,
-  Navbar,
   Footer,
   Services,
   Transactions,
@@ -12,12 +12,13 @@ function App() {
   return (
     <div className="min-h-screen">
       <div className="gradient-bg-welcome">
-        <Navbar />
-        <Home />
+        {/* <Navbar /> */}
+        <Header />
+        {/* <Home /> */}
       </div>
-      <Services />
-      <Transactions />
-      <Footer />
+      {/* <Services /> */}
+      {/* <Transactions /> */}
+      {/* <Footer /> */}
     </div>
   );
 }
